@@ -41,6 +41,10 @@ def getCamera(cameraNumber = 0):
         camera_list.append((name, addr))
     camera_list.sort(key=lambda x: x[0])
 
+    if len(camera_list) == 0:
+        print("No cameras found")
+        return None
+
     if cameraNumber < 0 or cameraNumber >= len(camera_list):
         print('Camera out of range')
         return None
