@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-# Based on code by Jim Easterbrook  jim@jim-easterbrook.me.uk
+# Based on code and gphoto2 python library by Jim Easterbrook  jim@jim-easterbrook.me.uk
 # python-gphoto2 - Python interface to libgphoto2
 # http://github.com/jim-easterbrook/python-gphoto2
 
